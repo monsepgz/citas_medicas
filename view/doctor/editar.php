@@ -64,7 +64,7 @@
 																<div class="form-group form-group-default">
 																	<label>Teléfono</label>
 															
-															<input type="text" class="form-control" maxlength="9" name="telefo" value="<?php echo $va['telefo']; ?>">
+															<input type="text" class="form-control" maxlength="10" name="telefo" value="<?php echo $va['telefo']; ?>">
 																</div>
 															</div>
 															
