@@ -90,6 +90,7 @@
 															
 															
 															<select class="form-control" name="naciona" value="<?php echo $va['naciona'];?>" >
+															<option value="Mexicana(o)">Mexicana(o)</option>
 															<option value="Peruana(o)">Peruana(o)</option>
 															<option value="Venezolana(o)">Venezolana(o)</option>
 															<option value="Argentina(o)">Argentina(o)</option>

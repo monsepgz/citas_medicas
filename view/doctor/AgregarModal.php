@@ -59,7 +59,8 @@
 						<div class="col-md-6">
 							<div class="form-group form-group-default">
 								<label>Teléfono</label>
-								<input name="telefo" required="" type="text" class="form-control" maxlength="9" placeholder="Ingrese teléfono" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+								// Aqui se puede modificar el tamaño del num telefono
+								<input name="telefo" required="" type="text" class="form-control" maxlength="10" placeholder="Ingrese teléfono" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
 							</div>
 						</div>
 						
