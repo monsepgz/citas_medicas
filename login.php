@@ -1,13 +1,15 @@
 <?php
+// llamada a la base de datos
 require 'assets/db/config.php';
 if(isset($_POST['login'])) {
     $errMsg = '';
 
-    // Get data from FORM
+    // variables para el inicio de sesion
     $usuario = $_POST['usuario'];
     
     $clave = MD5($_POST['clave']);
 
+    //
     if($usuario == '')
       $errMsg = 'Digite su usuario';
     if($clave == '')
@@ -38,7 +40,7 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, email,clave, cargo FROM u
             $_SESSION['clave'] = $data['clave'];
             $_SESSION['cargo'] = $data['cargo'];
             
-            
+            //Comparacion en la base de datos para verificar que interfaz mostrar
     if($_SESSION['cargo'] == 1){
           header('Location: view/admin/admin.php');
         }else if($_SESSION['cargo'] == 2){
@@ -90,7 +92,7 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, email,clave, cargo FROM u
     <form autocomplete="off" method="POST"  role="form">
 
     <img src="assets/img/logo.png" alt="">
-    <h2>Iniciar Sesion</h2>
+    <h2>Iniciar Sesión</h2>
     <?php
     if(isset($errMsg)){
     echo '<div style="color:#FF0000;text-align:center;font-size:20px;">'.$errMsg.'</div>';  
