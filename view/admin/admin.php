@@ -39,7 +39,7 @@
 	<div class="wrapper">
 		<div class="main-header">
 			<!-- Logo Header -->
-			<div class="logo-header" style="background-color: pink;">
+			<div class="logo-header" style="background-color: #AF7AC0 ">
 				
 				<a href="admin.php" class="logo">
 					<!-- Logo parte superior izquierda "menu" -->
@@ -60,7 +60,7 @@
 			<!-- End Logo Header -->
 
 			<!-- Navbar Header -->
-			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="blue2">
+			<nav class="navbar navbar-header navbar-expand-lg" style="background-color: #AF7AC0 ">
 				
 				<div class="container-fluid">
 					<div class="collapse" id="search-nav">
@@ -133,7 +133,7 @@
 											<div class="avatar-lg"><img src="../../assets/img/mujer.png" alt="image profile" class="avatar-img rounded"></div>
 											<div class="u-text">
 												<h4><?php echo ucfirst($_SESSION['nombre']); ?></h4>
-												<p class="text-muted">Administrador</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
+												<p class="text-muted">Administrador</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">Ver perfil</a>
 											</div>
 										</div>
 									</li>
@@ -316,10 +316,10 @@
 		<div class="main-panel">
 			<div class="content">
 				<div class="panel-header bg-primary-gradient">
-					<div class="page-inner py-5">
+					<div class="page-inner py-5" style="background-color: #AF7AC0 ">
 						<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
 							<div>
-								<h2 class="text-white pb-2 fw-bold">Monitoreo</h2>
+								<h2 class="text-white pb-2 fw-bold" >Monitoreo</h2>
 								
 							</div>
 							

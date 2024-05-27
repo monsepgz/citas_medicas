@@ -47,18 +47,18 @@
 	<div class="wrapper">
 		<div class="main-header">
 			<!-- Logo Header -->
-			<div class="logo-header" data-background-color="blue">
+			<div class="logo-header" style="background-color: #AF7AC0 ">
 				
 				<a href="../view/admin/admin.php" class="logo">
-					<img src="../assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+					<img src="../assets/img/logo.jpg" width=110 alt="navbar brand" class="navbar-brand">
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon">
+					<span class="navbar-toggler-icon" >
 						<i class="icon-menu"></i>
 					</span>
 				</button>
-				<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
-				<div class="nav-toggle">
+				<button class="topbar-toggler more" ><i class="icon-options-vertical"></i></button>
+				<div class="nav-toggle" >
 					<button class="btn btn-toggle toggle-sidebar">
 						<i class="icon-menu"></i>
 					</button>
@@ -67,7 +67,7 @@
 			<!-- End Logo Header -->
 
 			<!-- Navbar Header -->
-			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="blue2">
+			<nav class="navbar navbar-header navbar-expand-lg" style="background-color: #AF7AC0 ">
 				
 				<div class="container-fluid">
 					<div class="collapse" id="search-nav">
@@ -78,7 +78,7 @@
 										<i class="fa fa-search search-icon"></i>
 									</button>
 								</div>
-								<input type="text" placeholder="Search ..." class="form-control">
+								<input type="text" placeholder="Buscar ..." class="form-control">
 							</div>
 						</form>
 					</div>
@@ -95,8 +95,8 @@
 							<ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
 								<li>
 									<div class="dropdown-title d-flex justify-content-between align-items-center">
-										Messages 									
-										<a href="#" class="small">Mark all as read</a>
+										Mensajes 									
+										<a href="#" class="small">Marcar todo como leido</a>
 									</div>
 								</li>
 								<li>
@@ -154,7 +154,7 @@
 									</div>
 								</li>
 								<li>
-									<a class="see-all" href="javascript:void(0);">See all messages<i class="fa fa-angle-right"></i> </a>
+									<a class="see-all" href="javascript:void(0);">Ver todos los mensajes<i class="fa fa-angle-right"></i> </a>
 								</li>
 							</ul>
 						</li>
@@ -165,7 +165,7 @@
 							</a>
 							<ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
 								<li>
-									<div class="dropdown-title">You have 0 new notification</div>
+									<div class="dropdown-title">Tu tienes 0 notificaciones</div>
 								</li>
 								<li>
 									
@@ -195,7 +195,7 @@
 									</li>
 									<li>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">My Profile</a>
+										<a class="dropdown-item" href="#">Mi perfil</a>
 										
 										<div class="dropdown-divider"></div>
 										<a class="dropdown-item" href="../cerrarSesion.php">Logout</a>
@@ -231,17 +231,17 @@
 								<ul class="nav">
 									<li>
 										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
+											<span class="link-collapse">Mi perfil</span>
 										</a>
 									</li>
 									<li>
 										<a href="#edit">
-											<span class="link-collapse">Edit Profile</span>
+											<span class="link-collapse">Editar perfil</span>
 										</a>
 									</li>
 									<li>
 										<a href="#settings">
-											<span class="link-collapse">Settings</span>
+											<span class="link-collapse">Configuraciones</span>
 										</a>
 									</li>
 								</ul>
@@ -253,7 +253,7 @@
 						
 							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
 								<i class="fas fa-home"></i>
-								<p>Home</p>
+								<p>Inicio</p>
 								<span class="caret"></span>
 							</a>
 							
@@ -405,13 +405,14 @@
 					</div>
 					<div class="row">
 						
-						<div class="col-md-12">
-							<div class="card">
-								<div class="card-header">
+						<div class="col-md-12" >
+							<div class="card" >
+								<div class="card-header" >
 									<div class="d-flex align-items-center">
 										<h4 class="card-title">Mostrar</h4>
 										
-										<a href="#addRowModal" class="btn btn-primary btn-round ml-auto" data-toggle="modal">Nuevo</a>
+										<a href="#addRowModal" class="btn btn-primary btn-round ml-auto" style="background-color: #AF7AC0" data-toggle="modal">Nuevo</a>
+
 										<?php include('AgregarModal.php'); ?>
 									</div>
 									<div class="card-tools">
@@ -419,7 +420,7 @@
 												<span class="btn-label">
 													<i class="fa fa-pencil"></i>
 												</span>
-												Export
+												Exportar
 											</a>
 											
 										</div>
